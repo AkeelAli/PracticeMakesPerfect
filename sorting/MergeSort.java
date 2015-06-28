@@ -11,6 +11,7 @@ public class MergeSort {
 
         int mid = (list.size() / 2);
         
+	/* Middle index tricky, excluded from first, included in second */
         List<Integer> left = mergeSort(list.subList(0, mid));
         List<Integer> right = mergeSort(list.subList(mid, list.size()));
 
