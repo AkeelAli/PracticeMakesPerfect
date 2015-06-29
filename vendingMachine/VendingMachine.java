@@ -49,10 +49,12 @@ public class VendingMachine {
                    
                 change -= coinsReturned[index] * coinValue[index];
             }
+        
+            System.out.println(coinValue[index] + " : " + coinsReturned[index]);
 
         }
 
-        System.out.println(coinsReturned);
+        System.out.println("");
 
     }
 
