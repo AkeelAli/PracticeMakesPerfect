@@ -2,6 +2,9 @@
 
 def matrix_sum(matrix, opt=False):
     """
+    Given a 2D matrix, return a matrix with sum of previously seen values in each cell.
+    'Previously seen' is determined by a left to right, top to bottom scan.
+
     >>> matrix_sum([[1, 2, 3], [4, 5, 6]])
     [[1, 3, 6], [5, 12, 21]]
     >>> matrix_sum([[1, 2, 3], [4, 5, 6]], opt=True)

@@ -1,0 +1,3 @@
+Run the following command to test sanity of any change:
+
+> python3 -m doctest -v matrix_sum.py
